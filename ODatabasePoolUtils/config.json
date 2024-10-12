@@ -1,0 +1,15 @@
+{
+  "database": {
+    "url": "jdbc:mysql://localhost:3306/",
+    "name": "test",
+    "user": "root",
+    "password": ""
+  },
+  "pool": {
+    "maximumPoolSize": 10,
+    "minimumIdle": 2,
+    "connectionTimeout": 30000,
+    "idleTimeout": 60000,
+    "maxLifetime": 1800000
+  }
+}
